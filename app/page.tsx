@@ -1,4 +1,5 @@
 import { Contador } from './components/exemplos/contador.component'
+import { ExemploState } from './components/exemplos/exemplo-state.component'
 import {Titulo} from './components/shared/titulo.component'
 
 export default function Home() {
@@ -8,7 +9,7 @@ export default function Home() {
         principal="Bem-vindo ao React" 
         subtitulo="Aprendendo React e Next.js"
         />
-      <Contador/>
+      <Contador />
       <Contador initialValue={100} />
       <Contador initialValue={200} />
     </div>
