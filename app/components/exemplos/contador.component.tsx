@@ -3,7 +3,6 @@
 import { CircleX, Dices, StepBack, StepForward } from "lucide-react"
 import { useState } from "react"
 
-
 export function Contador(props: any){
 
     const [valor, setValor] = useState(props.initialValue ?? 0)
