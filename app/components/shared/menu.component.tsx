@@ -1,22 +1,19 @@
-import Link from "next/link";
 
-export function Menu(){
+import { MenuItem } from "./menu-item.component";
 
-    // Link => MenuItem link="" text=""
+export function Menu(props: any){
     return (
-        <div>
-            <h1 className="font-black text-xl">Logo</h1>
-                <ul>
-                    <Link href="/">
-                        <li>Home</li>
-                    </Link>
-                    <Link href="/contador">
-                        <li>Contador</li>
-                    </Link>
-                    <Link href="/todo-list">
-                        <li>Todo List</li>
-                    </Link>
-                </ul>
-        </div>
+        <ul>
+            {
+                props.items.map((item: any) => (
+                    <MenuItem
+                        key={item.link}
+                        link={item.link}
+                        text={item.text}
+                        icon={item.icon}
+                    />
+                ))
+            }
+        </ul>
     )
 }

@@ -46,5 +46,9 @@ body {
     @apply bg-red-500 hover:bg-red-600 text-white
   }
 
+  .menu-item{
+    @apply flex p-2 gap-2 rounded-lg hover:bg-blue-800
+  }
+  
   /* Add more button styles as needed */
 }

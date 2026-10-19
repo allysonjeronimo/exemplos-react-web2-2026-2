@@ -8,7 +8,7 @@ export default function Home() {
 
   return (
     <Pagina titulo="Página inicial" subtitulo="Bem-vindo a nossa aplicação React!">
-      <span>Conteúdo da página</span>
+      <span>Conteúdo da página Home</span>
     </Pagina>
   )
 }
