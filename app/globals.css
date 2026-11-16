@@ -53,5 +53,6 @@ body {
   .input-text{
     @apply w-64 bg-gray-200 text-gray-600 border-2 focus:border-blue-400 p-2 outline-none rounded-md
   }
+  
   /* Add more button styles as needed */
 }
