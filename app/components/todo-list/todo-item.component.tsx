@@ -20,6 +20,7 @@ export function TodoItem(props: TodoItemProps){
         <li className="flex gap-4 items-center bg-gray-900 px-4 py-2 rounded-md">
             <input
                 type="checkbox"
+                checked={todo.completed}
                 onChange={() => setCompleted(todo.id)}
             />
             <span className={textStyle}>
