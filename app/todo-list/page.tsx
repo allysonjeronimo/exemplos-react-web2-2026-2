@@ -98,7 +98,7 @@ export default function PageTodoList(){
 
     return (
         <Pagina 
-            titulo="Todo List" 
+            titulo="Minha Todo List" 
             subtitulo="Exemplo de lista de tarefas com React">
             <TodoForm addTodo={addTodo}/>
             <TodoList
